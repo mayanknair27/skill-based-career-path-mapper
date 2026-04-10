@@ -1,0 +1,509 @@
+{
+  "data scientist": {
+    "title": "Data Scientist",
+    "skills": [
+      "python",
+      "statistics",
+      "machine learning",
+      "data visualization",
+      "sql"
+    ],
+    "roadmap": [
+      "Learn Python and SQL basics",
+      "Master Statistics and Probability",
+      "Learn Machine Learning algorithms",
+      "Practice Data Visualization (Tableau/PowerBI)",
+      "Build strong Data Science Portfolio Projects",
+      "Apply for Data Science Internships or entry-level roles"
+    ],
+    "resources": [
+      {
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com/"
+      },
+      {
+        "name": "Coursera Data Science",
+        "url": "https://www.coursera.org/browse/data-science"
+      }
+    ]
+  },
+  "web developer": {
+    "title": "Web Developer",
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "node.js"
+    ],
+    "roadmap": [
+      "Learn HTML and CSS basics",
+      "Master JavaScript fundamentals",
+      "Learn a front-end framework like React",
+      "Understand back-end basics (Node.js/Express)",
+      "Build full-stack web applications",
+      "Apply for Junior Web Developer roles"
+    ],
+    "resources": [
+      {
+        "name": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org/"
+      },
+      {
+        "name": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/"
+      }
+    ]
+  },
+  "product manager": {
+    "title": "Product Manager",
+    "skills": [
+      "agile methodologies",
+      "product strategy",
+      "user research",
+      "communication",
+      "data analysis"
+    ],
+    "roadmap": [
+      "Learn basics of Agile and Scrum",
+      "Develop strong communication and stakeholder management skills",
+      "Learn how to conduct user research and analyze data",
+      "Practice creating product roadmaps and strategies",
+      "Build a portfolio with case studies",
+      "Apply for Associate Product Manager roles"
+    ],
+    "resources": [
+      {
+        "name": "Product School",
+        "url": "https://productschool.com/"
+      },
+      {
+        "name": "Mind the Product",
+        "url": "https://www.mindtheproduct.com/"
+      }
+    ]
+  },
+  "ai engineer": {
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "TensorFlow"
+    ],
+    "roadmap": [
+      "Learn Python",
+      "Study ML",
+      "Learn Deep Learning",
+      "Build AI Projects",
+      "Deploy Models"
+    ],
+    "title": "AI Engineer",
+    "resources": [
+      {
+        "name": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai/"
+      },
+      {
+        "name": "TensorFlow Tutorials",
+        "url": "https://www.tensorflow.org/tutorials"
+      }
+    ]
+  },
+  "machine learning engineer": {
+    "skills": [
+      "Python",
+      "ML Algorithms",
+      "Data Structures",
+      "Model Deployment"
+    ],
+    "roadmap": [
+      "Learn Python",
+      "Study ML Algorithms",
+      "Work on Projects",
+      "Learn Deployment"
+    ],
+    "title": "Machine Learning Engineer",
+    "resources": [
+      {
+        "name": "Coursera ML Specialization",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction"
+      },
+      {
+        "name": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn"
+      }
+    ]
+  },
+  "backend developer": {
+    "skills": [
+      "Python",
+      "Node.js",
+      "Databases",
+      "APIs"
+    ],
+    "roadmap": [
+      "Learn Backend Language",
+      "Learn Databases",
+      "Build APIs",
+      "Work on Projects"
+    ],
+    "title": "Backend Developer",
+    "resources": [
+      {
+        "name": "Node.js Guide",
+        "url": "https://nodejs.dev/en/learn/"
+      },
+      {
+        "name": "Roadmap.sh Backend",
+        "url": "https://roadmap.sh/backend"
+      }
+    ]
+  },
+  "frontend developer": {
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React"
+    ],
+    "roadmap": [
+      "Learn HTML/CSS",
+      "Learn JavaScript",
+      "Learn React",
+      "Build UI Projects"
+    ],
+    "title": "Frontend Developer",
+    "resources": [
+      {
+        "name": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/"
+      },
+      {
+        "name": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      }
+    ]
+  },
+  "full stack developer": {
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Backend",
+      "Databases"
+    ],
+    "roadmap": [
+      "Learn Frontend",
+      "Learn Backend",
+      "Connect Full Stack",
+      "Build Projects"
+    ],
+    "title": "Full Stack Developer",
+    "resources": [
+      {
+        "name": "FreeCodeCamp",
+        "url": "https://www.freecodecamp.org/"
+      },
+      {
+        "name": "The Odin Project",
+        "url": "https://www.theodinproject.com/"
+      }
+    ]
+  },
+  "mobile app developer": {
+    "skills": [
+      "Flutter",
+      "Kotlin",
+      "Java",
+      "APIs"
+    ],
+    "roadmap": [
+      "Learn Mobile Dev",
+      "Build Apps",
+      "Work with APIs",
+      "Deploy Apps"
+    ],
+    "title": "Mobile App Developer",
+    "resources": [
+      {
+        "name": "Flutter Docs",
+        "url": "https://docs.flutter.dev/"
+      },
+      {
+        "name": "Android Developer Basics",
+        "url": "https://developer.android.com/courses"
+      }
+    ]
+  },
+  "game developer": {
+    "skills": [
+      "C++",
+      "Unity",
+      "Game Design",
+      "Physics"
+    ],
+    "roadmap": [
+      "Learn C++/C#",
+      "Learn Unity",
+      "Build Games",
+      "Publish Projects"
+    ],
+    "title": "Game Developer",
+    "resources": [
+      {
+        "name": "Unity Learn",
+        "url": "https://learn.unity.com/"
+      },
+      {
+        "name": "Unreal Engine Docs",
+        "url": "https://docs.unrealengine.com/"
+      }
+    ]
+  },
+  "cybersecurity analyst": {
+    "skills": [
+      "Networking",
+      "Linux",
+      "Security Basics",
+      "Ethical Hacking"
+    ],
+    "roadmap": [
+      "Learn Networking",
+      "Learn Linux",
+      "Study Security",
+      "Practice Labs"
+    ],
+    "title": "Cybersecurity Analyst",
+    "resources": [
+      {
+        "name": "TryHackMe",
+        "url": "https://tryhackme.com/"
+      },
+      {
+        "name": "Hack The Box",
+        "url": "https://www.hackthebox.com/"
+      }
+    ]
+  },
+  "devops engineer": {
+    "skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "roadmap": [
+      "Learn Linux",
+      "Learn Docker",
+      "Learn Kubernetes",
+      "CI/CD Pipelines"
+    ],
+    "title": "DevOps Engineer",
+    "resources": [
+      {
+        "name": "DevOps Roadmap",
+        "url": "https://roadmap.sh/devops"
+      },
+      {
+        "name": "Docker Orientation",
+        "url": "https://docs.docker.com/get-started/"
+      }
+    ]
+  },
+  "cloud engineer": {
+    "skills": [
+      "AWS",
+      "Azure",
+      "Cloud Architecture",
+      "Networking"
+    ],
+    "roadmap": [
+      "Learn Cloud Basics",
+      "Work with AWS/Azure",
+      "Deploy Applications"
+    ],
+    "title": "Cloud Engineer",
+    "resources": [
+      {
+        "name": "AWS Skill Builder",
+        "url": "https://explore.skillbuilder.aws/"
+      },
+      {
+        "name": "Microsoft Learn for Azure",
+        "url": "https://learn.microsoft.com/en-us/training/azure/"
+      }
+    ]
+  },
+  "ui/ux designer": {
+    "skills": [
+      "Figma",
+      "Design Principles",
+      "User Research",
+      "Prototyping"
+    ],
+    "roadmap": [
+      "Learn Design Basics",
+      "Use Figma",
+      "Create Prototypes",
+      "Build Portfolio"
+    ],
+    "title": "UI/UX Designer",
+    "resources": [
+      {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/"
+      },
+      {
+        "name": "Figma Tutorials",
+        "url": "https://help.figma.com/hc/en-us/categories/360002042553-Learn-design"
+      }
+    ]
+  },
+  "data analyst": {
+    "skills": [
+      "Excel",
+      "SQL",
+      "Python",
+      "Data Visualization"
+    ],
+    "roadmap": [
+      "Learn Excel",
+      "Learn SQL",
+      "Learn Python",
+      "Create Dashboards"
+    ],
+    "title": "Data Analyst",
+    "resources": [
+      {
+        "name": "Google Data Analytics",
+        "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+      },
+      {
+        "name": "DataCamp",
+        "url": "https://www.datacamp.com/"
+      }
+    ]
+  },
+  "business analyst": {
+    "skills": [
+      "Excel",
+      "Communication",
+      "SQL",
+      "Data Analysis"
+    ],
+    "roadmap": [
+      "Learn Business Concepts",
+      "Learn Excel",
+      "Analyze Data",
+      "Present Insights"
+    ],
+    "title": "Business Analyst",
+    "resources": [
+      {
+        "name": "IIBA",
+        "url": "https://www.iiba.org/"
+      },
+      {
+        "name": "PMI-PBA",
+        "url": "https://www.pmi.org/certifications/business-analysis-pba"
+      }
+    ]
+  },
+  "blockchain developer": {
+    "skills": [
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "Cryptography"
+    ],
+    "roadmap": [
+      "Learn Blockchain Basics",
+      "Learn Solidity",
+      "Build DApps"
+    ],
+    "title": "Blockchain Developer",
+    "resources": [
+      {
+        "name": "CryptoZombies",
+        "url": "https://cryptozombies.io/"
+      },
+      {
+        "name": "Ethereum Developer Docs",
+        "url": "https://ethereum.org/en/developers/docs/"
+      }
+    ]
+  },
+  "software tester (qa)": {
+    "skills": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Bug Tracking"
+    ],
+    "roadmap": [
+      "Learn Testing Basics",
+      "Learn Automation",
+      "Use Selenium",
+      "Work on Projects"
+    ],
+    "title": "Software Tester (QA)",
+    "resources": [
+      {
+        "name": "Ministry of Testing",
+        "url": "https://www.ministryoftesting.com/"
+      },
+      {
+        "name": "Selenium HQ",
+        "url": "https://www.selenium.dev/"
+      }
+    ]
+  },
+  "system administrator": {
+    "skills": [
+      "Linux",
+      "Networking",
+      "Servers",
+      "Security"
+    ],
+    "roadmap": [
+      "Learn Linux",
+      "Manage Servers",
+      "Understand Networking"
+    ],
+    "title": "System Administrator",
+    "resources": [
+      {
+        "name": "Linux Journey",
+        "url": "https://linuxjourney.com/"
+      },
+      {
+        "name": "Red Hat Training",
+        "url": "https://www.redhat.com/en/services/training"
+      }
+    ]
+  },
+  "ar/vr developer": {
+    "skills": [
+      "Unity",
+      "3D Modeling",
+      "C#",
+      "AR/VR Tools"
+    ],
+    "roadmap": [
+      "Learn Unity",
+      "Build AR/VR Apps",
+      "Work on Projects"
+    ],
+    "title": "AR/VR Developer",
+    "resources": [
+      {
+        "name": "Unity AR/VR",
+        "url": "https://unity.com/learn/getting-started-with-ar-vr"
+      },
+      {
+        "name": "Oculus Developer Center",
+        "url": "https://developer.oculus.com/"
+      }
+    ]
+  }
+}

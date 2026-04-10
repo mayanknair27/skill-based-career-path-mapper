@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Base Background - Deep Purple Spectrum */
+.stApp {
+    background-color: #0F0A1E;
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(124, 58, 237, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(15, 10, 30, 0.2) 0px, transparent 50%);
+    color: #F1F5F9;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container Spacing */
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 5rem !important;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #1A162B !important;
+    border-right: 1px solid #2D264D;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif !important;
+    color: #F8FAFC !important;
+    letter-spacing: -0.025em;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.75rem !important;
+    margin-bottom: 0.5rem !important;
+    background: linear-gradient(135deg, #F8FAFC 0%, #A78BFA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Professional Cards */
+.dashboard-card {
+    background: #1A162B;
+    border: 1px solid #2D264D;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card:hover {
+    border-color: #7C3AED;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(124, 58, 237, 0.1);
+}
+
+.metric-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #A78BFA;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 4px;
+}
+
+.metric-value {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #F8FAFC;
+    line-height: 1;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #2D264D;
+    color: #F8FAFC !important;
+    border: 1px solid #4C3C8A;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.stButton>button:hover {
+    background-color: #7C3AED;
+    border-color: #A78BFA;
+}
+
+/* Primary Button */
+button[kind="primary"] {
+    background: #7C3AED !important;
+    border: none !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 14px 0 rgba(124, 58, 237, 0.3) !important;
+    width: 100% !important;
+}
+
+button[kind="primary"]:hover {
+    background: #8B5CF6 !important;
+    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.4) !important;
+}
+
+/* Progress Bars */
+.stProgress > div > div > div > div {
+    background: #7C3AED !important;
+}
+
+/* Inputs & Selectboxes */
+.stTextInput>div>div>input, .stTextArea>div>div>textarea, [data-baseweb="select"] > div {
+    background-color: #0F0A1E !important;
+    border: 1px solid #2D264D !important;
+    color: #F8FAFC !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+/* Remove the "track" effect on dropdowns */
+.stSelectbox > div [data-baseweb="select"] {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.stSelectbox div[aria-expanded] {
+    border: 1px solid #7C3AED !important;
+    border-radius: 8px !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+    border-bottom: 1px solid #2D264D;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #A78BFA;
+    font-weight: 600;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #C4B5FD !important;
+    border-bottom-color: #C4B5FD !important;
+}
+
+/* Custom Chips */
+.priority-high {
+    background: rgba(239, 68, 68, 0.1);
+    color: #FCA5A5;
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.priority-medium {
+    background: rgba(245, 158, 11, 0.1);
+    color: #FCD34D;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.priority-low {
+    background: rgba(16, 185, 129, 0.1);
+    color: #6EE7B7;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Clean Info Box */
+.info-box {
+    background: rgba(124, 58, 237, 0.05);
+    border-left: 4px solid #7C3AED;
+    padding: 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 20px 0;
+}

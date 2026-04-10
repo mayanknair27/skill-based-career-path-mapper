@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Local Data (IMPORTANT: Security)
+data/users.json
+data/career_mapper.db
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
