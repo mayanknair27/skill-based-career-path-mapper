@@ -58,7 +58,7 @@ def initialize_database():
     conn.commit()
     conn.close()
 
-    # Run migration once if users.json exists and has data
+    # Run migration once if users.json exists
     _migrate_from_json()
 
 def _migrate_from_json():
@@ -78,13 +78,12 @@ def _migrate_from_json():
     conn = get_connection()
     cursor = conn.cursor()
 
-    migrated_count = 0
     for username, user_data in data.items():
         username = username.strip()
         email = user_data.get("email", "").strip()
         password_hash = user_data.get("password_hash", "")
 
-        # Skip if user already migrated
+        # Skip if user already exists
         exists = cursor.execute("SELECT id FROM users WHERE username = ?", (username,)).fetchone()
         if exists:
             continue
@@ -96,7 +95,6 @@ def _migrate_from_json():
             )
             user_id = cursor.lastrowid
 
-            # Migrate profile data
             profile = user_data.get("profile", {})
             career_result = profile.get("career_result")
             roadmap_progress = profile.get("roadmap_progress")
@@ -113,17 +111,12 @@ def _migrate_from_json():
                 json.dumps(roadmap_progress) if roadmap_progress else None
             ))
 
-            # Log the migration event
             cursor.execute(
                 "INSERT INTO audit_logs (username, event) VALUES (?, ?)",
                 (username, "MIGRATED_FROM_JSON")
             )
-            migrated_count += 1
         except Exception:
             continue
 
     conn.commit()
     conn.close()
-
-    if migrated_count > 0:
-        print(f"[DB] Migrated {migrated_count} user(s) from users.json to SQLite.")
